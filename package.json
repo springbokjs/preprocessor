@@ -2,12 +2,13 @@
   "name": "springbokjs-preprocessor",
   "description": "SpringbokJS Preprocessor",
   "keywords": ["springbokjs","preprocessor"],
-  "version": "0.0.1",
+  "version": "0.1.0",
 	"homepage":"springbokjs.org",
   "license": "MIT",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
 	"repository": "git://github.com/christophehurpeau/springbokjs-preprocessor.git",
 	
   "dependencies": {
+		"springbokjs-utils":"0.2.x"
 	}
 }
