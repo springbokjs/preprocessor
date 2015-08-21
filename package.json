@@ -1,13 +1,30 @@
 {
   "name": "springbokjs-preprocessor",
   "description": "SpringbokJS Preprocessor",
-  "keywords": ["springbokjs","preprocessor"],
-  "version": "0.0.1",
-	"homepage":"springbokjs.org",
+  "keywords": [
+    "preprocessor",
+    "springbokjs"
+  ],
+  "version": "0.1.0",
+  "homepage": "springbokjs.org",
   "license": "MIT",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
-	"repository": "git://github.com/christophehurpeau/springbokjs-preprocessor.git",
-	
+  "repository": "springbokjs/preprocessor",
+  "main": "./lib/index.js",
   "dependencies": {
-	}
+    "babel-runtime": "^5.8"
+  },
+  "devDependencies": {
+    "proclaim": "^3.3.1",
+    "springbokjs-library": "^8.0.3"
+  },
+  "scripts": {
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "test": "make tests",
+    "version": "make version",
+    "watch": "make watch"
+  }
 }
